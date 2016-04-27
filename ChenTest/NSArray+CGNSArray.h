@@ -10,4 +10,7 @@
 
 @interface NSArray (CGNSArray)
 
+- (id)objectNullAtIndex:(NSUInteger)index;
+
+
 @end

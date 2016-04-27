@@ -9,5 +9,7 @@
 #import "NSArray+CGNSArray.h"
 
 @implementation NSArray (CGNSArray)
-
+- (id)objectNullAtIndex:(NSUInteger)index{
+    return nil;
+}
 @end

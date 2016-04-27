@@ -11,7 +11,7 @@
 @implementation UIImageView (CGUIImageView)
 //异步设置图片
 -(UIImage *)setAsynchronousImage:(NSString *)imageString defaultImage:(UIImage *)image{
-    
+    return nil;
 }
 
 @end
