@@ -16,6 +16,9 @@
 		67C50CDA1CD0D6AA00E58545 /* ChenTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CD91CD0D6AA00E58545 /* ChenTestTests.m */; };
 		67C50CE51CD0D6AA00E58545 /* ChenTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CE41CD0D6AA00E58545 /* ChenTestUITests.m */; };
 		67C50CFA1CD0D77300E58545 /* NSArray+CGNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CF91CD0D77300E58545 /* NSArray+CGNSArray.m */; };
+		67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CFC1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m */; };
+		67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */; };
+		67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		67C50CE61CD0D6AA00E58545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67C50CF81CD0D77300E58545 /* NSArray+CGNSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CGNSArray.h"; sourceTree = "<group>"; };
 		67C50CF91CD0D77300E58545 /* NSArray+CGNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CGNSArray.m"; sourceTree = "<group>"; };
+		67C50CFB1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CGNSMutableArray.h"; sourceTree = "<group>"; };
+		67C50CFC1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CGNSMutableArray.m"; sourceTree = "<group>"; };
+		67C50CFE1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CGNSDictionary.h"; sourceTree = "<group>"; };
+		67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CGNSDictionary.m"; sourceTree = "<group>"; };
+		67C50D011CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CGNSMutableDictionary.h"; sourceTree = "<group>"; };
+		67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CGNSMutableDictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		67C50CBE1CD0D6AA00E58545 /* ChenTest */ = {
 			isa = PBXGroup;
 			children = (
+				67C50D041CD0D8E300E58545 /* HelpClass */,
 				67C50CF61CD0D71500E58545 /* Extendeds */,
 				67C50CC21CD0D6AA00E58545 /* AppDelegate.h */,
 				67C50CC31CD0D6AA00E58545 /* AppDelegate.m */,
@@ -149,8 +159,21 @@
 			children = (
 				67C50CF81CD0D77300E58545 /* NSArray+CGNSArray.h */,
 				67C50CF91CD0D77300E58545 /* NSArray+CGNSArray.m */,
+				67C50CFB1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.h */,
+				67C50CFC1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m */,
+				67C50CFE1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.h */,
+				67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */,
+				67C50D011CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.h */,
+				67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */,
 			);
 			name = Extendeds;
+			sourceTree = "<group>";
+		};
+		67C50D041CD0D8E300E58545 /* HelpClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HelpClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +309,9 @@
 				67C50CC71CD0D6AA00E58545 /* ViewController.m in Sources */,
 				67C50CC41CD0D6AA00E58545 /* AppDelegate.m in Sources */,
 				67C50CC11CD0D6AA00E58545 /* main.m in Sources */,
+				67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */,
+				67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */,
+				67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */,
 				67C50CFA1CD0D77300E58545 /* NSArray+CGNSArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
