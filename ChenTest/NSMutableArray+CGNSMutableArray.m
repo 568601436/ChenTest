@@ -9,5 +9,7 @@
 #import "NSMutableArray+CGNSMutableArray.h"
 
 @implementation NSMutableArray (CGNSMutableArray)
-
+- (id)objectNullAtIndex:(NSUInteger)index{
+    return nil;
+}
 @end

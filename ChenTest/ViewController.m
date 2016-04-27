@@ -17,8 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *sss=[[NSArray array]init];
-    [sss objectAtIndex:1];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

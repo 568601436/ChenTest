@@ -9,5 +9,7 @@
 #import "NSDictionary+CGNSDictionary.h"
 
 @implementation NSDictionary (CGNSDictionary)
-
+- (id)objectNullForKey:(NSString *)anAttribute{
+    return nil;
+}
 @end

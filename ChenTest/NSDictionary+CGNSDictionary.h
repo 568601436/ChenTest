@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (CGNSDictionary)
-
+/**
+ *  判断是否为空
+ *
+ *  @param stringKey 键值
+ *
+ *  @return return value
+ */
+- (id)objectNullForKey:(NSString *)stringKey;
 @end

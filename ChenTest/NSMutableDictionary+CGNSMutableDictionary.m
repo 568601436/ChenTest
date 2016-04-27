@@ -9,5 +9,7 @@
 #import "NSMutableDictionary+CGNSMutableDictionary.h"
 
 @implementation NSMutableDictionary (CGNSMutableDictionary)
-
+- (id)objectNullForKey:(NSString *)anAttribute{
+    return nil;
+}
 @end
