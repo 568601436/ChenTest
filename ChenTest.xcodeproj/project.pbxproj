@@ -19,6 +19,7 @@
 		67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CFC1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m */; };
 		67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */; };
 		67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */; };
+		67C50D091CD0D9DA00E58545 /* UIImageView+CGUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,10 @@
 		67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CGNSDictionary.m"; sourceTree = "<group>"; };
 		67C50D011CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CGNSMutableDictionary.h"; sourceTree = "<group>"; };
 		67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CGNSMutableDictionary.m"; sourceTree = "<group>"; };
+		67C50D051CD0D93F00E58545 /* CGExendeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGExendeds.h; sourceTree = "<group>"; };
+		67C50D061CD0D98400E58545 /* CGHelpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHelpClass.h; sourceTree = "<group>"; };
+		67C50D071CD0D9DA00E58545 /* UIImageView+CGUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CGUIImageView.h"; sourceTree = "<group>"; };
+		67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CGUIImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +162,7 @@
 		67C50CF61CD0D71500E58545 /* Extendeds */ = {
 			isa = PBXGroup;
 			children = (
+				67C50D051CD0D93F00E58545 /* CGExendeds.h */,
 				67C50CF81CD0D77300E58545 /* NSArray+CGNSArray.h */,
 				67C50CF91CD0D77300E58545 /* NSArray+CGNSArray.m */,
 				67C50CFB1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.h */,
@@ -165,6 +171,8 @@
 				67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */,
 				67C50D011CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.h */,
 				67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */,
+				67C50D071CD0D9DA00E58545 /* UIImageView+CGUIImageView.h */,
+				67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */,
 			);
 			name = Extendeds;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 		67C50D041CD0D8E300E58545 /* HelpClass */ = {
 			isa = PBXGroup;
 			children = (
+				67C50D061CD0D98400E58545 /* CGHelpClass.h */,
 			);
 			name = HelpClass;
 			sourceTree = "<group>";
@@ -309,6 +318,7 @@
 				67C50CC71CD0D6AA00E58545 /* ViewController.m in Sources */,
 				67C50CC41CD0D6AA00E58545 /* AppDelegate.m in Sources */,
 				67C50CC11CD0D6AA00E58545 /* main.m in Sources */,
+				67C50D091CD0D9DA00E58545 /* UIImageView+CGUIImageView.m in Sources */,
 				67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */,
 				67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */,
 				67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */,
