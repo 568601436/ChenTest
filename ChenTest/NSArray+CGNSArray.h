@@ -9,7 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface NSArray (CGNSArray)
-
+/**
+ *  为空判断
+ *
+ *  @param index 数组下标
+ *
+ *  @return 返回value
+ */
 - (id)objectNullAtIndex:(NSUInteger)index;
 
 
