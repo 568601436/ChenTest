@@ -10,6 +10,9 @@
 
 @implementation NSMutableDictionary (CGNSMutableDictionary)
 - (id)objectNullForKey:(NSString *)anAttribute{
-    return nil;
+    if ([[self allKeys] containsObject:anAttribute]) {
+        return [self objectForKey:anAttribute];
+    }
+    return @"";
 }
 @end

@@ -17,6 +17,6 @@
  *
  *  @return 返回Image
  */
--(UIImage *)setAsynchronousImage:(NSString *)imageString defaultImage:(UIImage *)image;
+-(void)setAsynchronousImage:(NSString *)imageString defaultImage:(UIImage *)placeholder;
 
 @end

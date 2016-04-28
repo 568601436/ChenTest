@@ -10,6 +10,9 @@
 
 @implementation NSArray (CGNSArray)
 - (id)objectNullAtIndex:(NSUInteger)index{
-    return nil;
+    if (self.count>index&&self!=nil) {
+        return [self objectAtIndex:index];
+    }
+    return @"";
 }
 @end

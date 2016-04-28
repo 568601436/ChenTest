@@ -20,6 +20,9 @@
 		67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50CFF1CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m */; };
 		67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */; };
 		67C50D091CD0D9DA00E58545 /* UIImageView+CGUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */; };
+		67D884001CD1BB78002B6A46 /* CGFileHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D883FF1CD1BB78002B6A46 /* CGFileHelp.m */; };
+		67D884041CD1D62C002B6A46 /* NSString+StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D884031CD1D62C002B6A46 /* NSString+StringExtension.m */; };
+		67D884071CD1D766002B6A46 /* UIButton+CGUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D884061CD1D766002B6A46 /* UIButton+CGUIButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,13 @@
 		67C50D061CD0D98400E58545 /* CGHelpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHelpClass.h; sourceTree = "<group>"; };
 		67C50D071CD0D9DA00E58545 /* UIImageView+CGUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CGUIImageView.h"; sourceTree = "<group>"; };
 		67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CGUIImageView.m"; sourceTree = "<group>"; };
+		67D883FE1CD1BB78002B6A46 /* CGFileHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGFileHelp.h; sourceTree = "<group>"; };
+		67D883FF1CD1BB78002B6A46 /* CGFileHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGFileHelp.m; sourceTree = "<group>"; };
+		67D884011CD1BC56002B6A46 /* CGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGConfig.h; sourceTree = "<group>"; };
+		67D884021CD1D62C002B6A46 /* NSString+StringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtension.h"; sourceTree = "<group>"; };
+		67D884031CD1D62C002B6A46 /* NSString+StringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtension.m"; sourceTree = "<group>"; };
+		67D884051CD1D766002B6A46 /* UIButton+CGUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGUIButton.h"; sourceTree = "<group>"; };
+		67D884061CD1D766002B6A46 /* UIButton+CGUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGUIButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,7 @@
 		67C50CBE1CD0D6AA00E58545 /* ChenTest */ = {
 			isa = PBXGroup;
 			children = (
+				67D884011CD1BC56002B6A46 /* CGConfig.h */,
 				67C50D041CD0D8E300E58545 /* HelpClass */,
 				67C50CF61CD0D71500E58545 /* Extendeds */,
 				67C50CC21CD0D6AA00E58545 /* AppDelegate.h */,
@@ -173,6 +184,10 @@
 				67C50D021CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m */,
 				67C50D071CD0D9DA00E58545 /* UIImageView+CGUIImageView.h */,
 				67C50D081CD0D9DA00E58545 /* UIImageView+CGUIImageView.m */,
+				67D884051CD1D766002B6A46 /* UIButton+CGUIButton.h */,
+				67D884061CD1D766002B6A46 /* UIButton+CGUIButton.m */,
+				67D884021CD1D62C002B6A46 /* NSString+StringExtension.h */,
+				67D884031CD1D62C002B6A46 /* NSString+StringExtension.m */,
 			);
 			name = Extendeds;
 			sourceTree = "<group>";
@@ -181,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				67C50D061CD0D98400E58545 /* CGHelpClass.h */,
+				67D883FE1CD1BB78002B6A46 /* CGFileHelp.h */,
+				67D883FF1CD1BB78002B6A46 /* CGFileHelp.m */,
 			);
 			name = HelpClass;
 			sourceTree = "<group>";
@@ -315,10 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D884041CD1D62C002B6A46 /* NSString+StringExtension.m in Sources */,
 				67C50CC71CD0D6AA00E58545 /* ViewController.m in Sources */,
+				67D884001CD1BB78002B6A46 /* CGFileHelp.m in Sources */,
 				67C50CC41CD0D6AA00E58545 /* AppDelegate.m in Sources */,
 				67C50CC11CD0D6AA00E58545 /* main.m in Sources */,
 				67C50D091CD0D9DA00E58545 /* UIImageView+CGUIImageView.m in Sources */,
+				67D884071CD1D766002B6A46 /* UIButton+CGUIButton.m in Sources */,
 				67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */,
 				67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */,
 				67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */,
@@ -548,6 +568,7 @@
 				67C50CEB1CD0D6AA00E58545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67C50CEC1CD0D6AA00E58545 /* Build configuration list for PBXNativeTarget "ChenTestTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +577,7 @@
 				67C50CEE1CD0D6AA00E58545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67C50CEF1CD0D6AA00E58545 /* Build configuration list for PBXNativeTarget "ChenTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +586,7 @@
 				67C50CF11CD0D6AA00E58545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
