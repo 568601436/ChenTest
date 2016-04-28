@@ -40,7 +40,7 @@
  */
 - (CGRect) getStringRectWith:(int)maxwidth maxheight:(int)maxheight fontSize:(float)size;
 /**
- *  md5加密
+ *  md5加密2
  *
  *  @return 返回加密字符串
  */

@@ -23,6 +23,7 @@
 		67D884001CD1BB78002B6A46 /* CGFileHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D883FF1CD1BB78002B6A46 /* CGFileHelp.m */; };
 		67D884041CD1D62C002B6A46 /* NSString+StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D884031CD1D62C002B6A46 /* NSString+StringExtension.m */; };
 		67D884071CD1D766002B6A46 /* UIButton+CGUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D884061CD1D766002B6A46 /* UIButton+CGUIButton.m */; };
+		67D8840A1CD2031A002B6A46 /* CGToastHelperHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D884091CD2031A002B6A46 /* CGToastHelperHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		67D884031CD1D62C002B6A46 /* NSString+StringExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtension.m"; sourceTree = "<group>"; };
 		67D884051CD1D766002B6A46 /* UIButton+CGUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGUIButton.h"; sourceTree = "<group>"; };
 		67D884061CD1D766002B6A46 /* UIButton+CGUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGUIButton.m"; sourceTree = "<group>"; };
+		67D884081CD2031A002B6A46 /* CGToastHelperHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGToastHelperHUD.h; sourceTree = "<group>"; };
+		67D884091CD2031A002B6A46 /* CGToastHelperHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGToastHelperHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				67C50D061CD0D98400E58545 /* CGHelpClass.h */,
 				67D883FE1CD1BB78002B6A46 /* CGFileHelp.h */,
 				67D883FF1CD1BB78002B6A46 /* CGFileHelp.m */,
+				67D884081CD2031A002B6A46 /* CGToastHelperHUD.h */,
+				67D884091CD2031A002B6A46 /* CGToastHelperHUD.m */,
 			);
 			name = HelpClass;
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 				67C50CC11CD0D6AA00E58545 /* main.m in Sources */,
 				67C50D091CD0D9DA00E58545 /* UIImageView+CGUIImageView.m in Sources */,
 				67D884071CD1D766002B6A46 /* UIButton+CGUIButton.m in Sources */,
+				67D8840A1CD2031A002B6A46 /* CGToastHelperHUD.m in Sources */,
 				67C50D001CD0D8BD00E58545 /* NSDictionary+CGNSDictionary.m in Sources */,
 				67C50CFD1CD0D8A700E58545 /* NSMutableArray+CGNSMutableArray.m in Sources */,
 				67C50D031CD0D8D600E58545 /* NSMutableDictionary+CGNSMutableDictionary.m in Sources */,
